@@ -1,7 +1,20 @@
+# Diagrama de Clases - Patrón Builder
+
+```mermaid
+
 classDiagram
-direction BT
+
 class Car {
-  + Car(String, String, String, String, String, String, String, boolean, boolean) 
+  + Car(String, String, String, String, String, String, String, boolean, boolean)
+  - String customCarType
+  - String customInterior
+  - String customEngineType
+  - boolean customGpsNavigation
+  - String customTranmissionType
+  - String customColor
+  - String customSoundSystem
+  - boolean sutomSunroof
+  - String customTires
   + carResult() String
 }
 class CarDirector {
@@ -12,16 +25,24 @@ class CarDirector {
 class CustomCarBuilder {
   + CustomCarBuilder() 
   - String customCarType
-   String interior
-   String customCarType
-   String engineType
-   boolean gpsNavigation
-   String transmission
-   String color
-   Car custom
-   String soundSystem
-   boolean sunroof
-   String tires
+  - String customInterior
+  - String customEngineType
+  - boolean customGpsNavigation
+  - String customTranmissionType
+  - String customColor
+  - String customSoundSystem
+  - boolean sutomSunroof
+  - String customTires
+  + setCustomCarType(String) CustomCarBuilder
+  + setEngineType(String) CustomCarBuilder
+  + setColor(String) CustomCarBuilder
+  + setTires(String) CustomCarBuilder
+  + setSoundSystem(String) CustomCarBuilder
+  + setInterior(String) CustomCarBuilder
+  + setTransmission(String) CustomCarBuilder
+  + setGpsNavigation(boolean) CustomCarBuilder
+  + setSunroof(boolean) CustomCarBuilder
+  + getCustom() Car
 }
 class CustomCarClient {
   + CustomCarClient() 
@@ -29,16 +50,21 @@ class CustomCarClient {
 }
 class ICarBuilder {
 <<Interface>>
-   String interior
-   String customCarType
-   String engineType
-   boolean gpsNavigation
-   String transmission
-   String color
-   String soundSystem
-   boolean sunroof
-   String tires
+  + setCustomCarType(String) ICarBuilder
+  + setEngineType(String) ICarBuilder
+  + setColor(String) ICarBuilder
+  + setTires(String) ICarBuilder
+  + setSoundSystem(String) ICarBuilder
+  + setInterior(String) ICarBuilder
+  + setTransmission(String) ICarBuilder
+  + setGpsNavigation(boolean) ICarBuilder
+  + setSunroof(boolean) ICarBuilder
 }
 
+
+
+ICarBuilder <|.. CustomCarBuilder 
+CarDirector o-- ICarBuilder
 CustomCarBuilder  ..>  Car : «create»
-CustomCarBuilder  ..>  ICarBuilder 
+
+```
