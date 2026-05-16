@@ -17,17 +17,13 @@ Este directorio contiene las soluciones para tres escenarios prácticos aplicand
 
 ## ⚙️ Requisitos Previos
 
-Para poder ejecutar el código fuente de los ejercicios en tu máquina local, requieres el siguiente entorno:
-
-
+Para poder ejecutar el código fuente de los ejercicios en tu máquina local, requieres el JDK (Java Development Kit), configurar las variables de entorno (JAVA_HOME) y usar un IDE o editor de texto preferido (p.e. IntelliJ IDEA).
 
 ---
 
 ## 🚀 Cómo Ejecutar los Escenarios
 
-Abre tu terminal, asegúrate de estar posicionado en la raíz de esta carpeta (`Actividad 1`), y ejecuta los siguientes comandos dependiendo del ejercicio que quieras probar.
-
-*(Para volver a la raíz luego de ejecutar, usa `cd ..`)*
+Abre tu terminal (IDE), asegúrate de estar posicionado en la raíz de esta carpeta (`escenario1`), y ejecuta la clase **CustomCarClient**.
 
 ### 🚗 Escenario 1: Builder (Configuración de Automóviles)
 Observa en consola cómo se construye un auto complejo paso a paso, asegurando la inmutabilidad de sus atributos opcionales.
