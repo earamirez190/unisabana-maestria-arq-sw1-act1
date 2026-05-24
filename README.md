@@ -9,7 +9,6 @@ Este directorio contiene las soluciones para tres escenarios prácticos aplicand
 3. **[Escenario 3 - Patrón Mediator](./escenario3/):** Aplicación de chat grupal para centralizar la comunicación entre múltiples usuarios.
 
 **En cada una de las carpetas encontrarás la siguiente estructura:**
-*   📁 `java/`: Carpeta con el código fuente ejecutable en Java (`Main.java`).
 *   📝 `Escenario.md`: El planteamiento original del problema y cómo el código resuelve cada uno de los beneficios esperados.
 *   📝 `README.md`: La justificación teórica detallada sobre **por qué** se escogió ese patrón en particular, descartando alternativas.
 *   📊 `DiagramaClases.md`: Un diagrama visual UML generado con sintaxis *Mermaid* que muestra las relaciones de clases.
