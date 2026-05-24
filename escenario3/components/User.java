@@ -2,10 +2,6 @@ package components;
 
 import mediator.ChatRoomMediator;
 
-/**
- * --- Colleague (Colega Abstracto) ---
- * Representa un participante que interactúa a través del mediador.
- */
 public abstract class User {
     protected String name;
     protected ChatRoomMediator mediator;
