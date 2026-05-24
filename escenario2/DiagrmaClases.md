@@ -54,7 +54,7 @@ NotificacionMensaje  -->  Notificacion
 PlataformaEscritorio  ..>  Plataforma 
 PlataformaMovil  ..>  Plataforma 
 PlataformaWeb  ..>  Plataforma 
-Notificacion --> Main 
+Main --> Notificacion   
 Plataforma ..> Notificacion
 
 ```
