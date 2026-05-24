@@ -1,14 +1,3 @@
-## 👥 Integrantes
-
-| Nombre completo                          | Código Estudiante |
-|------------------------------------------|-------------------|
-| Jose Haider Barreto Oliveros             | 0000386812        |
-| Daniel Sebastian Quintero Martinez       | 0000400364        |
-| Edward Augusto Ramirez Rodriguez         | 0000324316        |
-| Maicol Steven Achury                     | 0000402736        |
-| Leonardo Gomez Lopez                     | 0000398313        |
-|------------------------------------------|-------------------|
-
 ## Entrega
 
 Se hace entrega a través del siguiente link de github en donde se encontrara el repositorio
@@ -16,13 +5,6 @@ Se hace entrega a través del siguiente link de github en donde se encontrara el
 Link: https://github.com/earamirez190/unisabana-maestria-arq-sw1-act1
 
 
-
-
-# Actividad 1: Patrones de Diseño
-
-
-
-
 ## 👥 Integrantes
 
 | Nombre completo                          | Código Estudiante |
@@ -34,6 +16,12 @@ Link: https://github.com/earamirez190/unisabana-maestria-arq-sw1-act1
 | Leonardo Gomez Lopez                     | 0000398313        |
 |------------------------------------------|-------------------|
 
+
+
+
+
+
+# Actividad 1: Patrones de Diseño
 
 
 Este directorio contiene las soluciones para tres escenarios prácticos aplicando patrones de diseño. Para ofrecer mayor flexibilidad
