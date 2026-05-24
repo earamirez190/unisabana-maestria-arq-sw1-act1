@@ -1,6 +1,6 @@
 # Actividad 1: Patrones de Diseño
 
-Este directorio contiene las soluciones para tres escenarios prácticos aplicando patrones de diseño. Para ofrecer mayor flexibilidad, **cada escenario incluye la implementación tanto en TypeScript como en Java.**
+Este directorio contiene las soluciones para tres escenarios prácticos aplicando patrones de diseño. Para ofrecer mayor flexibilidad
 
 ## 📋 Índice General
 
@@ -20,7 +20,6 @@ Este directorio contiene las soluciones para tres escenarios prácticos aplicand
 
 Para ejecutar los proyectos de manera local requieres:
 
-*   **Para Java:** Instalar el **JDK de Java** (versión 11 o superior sugerida para ejecutar archivos sueltos usando el comando `java`).
+* Instalar el **JDK de Java** (versión 11 o superior sugerida para ejecutar archivos sueltos usando el comando `java`).
 
-*
 ---
