@@ -35,6 +35,6 @@ class User {
 
 ChatRoom  ..>  ChatRoomMediator 
 ChatUser  -->  User 
-
+User  --o  ChatRoom
 
 ```
