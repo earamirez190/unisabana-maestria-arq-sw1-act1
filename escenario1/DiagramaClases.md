@@ -64,7 +64,8 @@ class ICarBuilder {
 
 
 ICarBuilder <|.. CustomCarBuilder 
-CarDirector o-- ICarBuilder
+CarDirector --> ICarBuilder
 CustomCarBuilder  ..>  Car : «create»
 CustomCarClient  -->  CarDirector
+CustomCarClient ..>  CustomCarBuilder
 ```
