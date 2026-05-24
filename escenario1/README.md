@@ -1,7 +1,7 @@
 # Justificación del Patrón de Diseño: Builder
 
 ## Tipo de Patrón
-**Creacional**
+**Creacional (Creational)**
 
 ## ¿Por qué se seleccionó el patrón Builder para el Escenario 1?
 
