@@ -15,6 +15,6 @@ El sistema de notificaciones enfrentaba un problema clásico de explosión combi
 
 ### La elección de Bridge
 El patrón **Bridge (Puente)** fue seleccionado porque está diseñado específicamente para **separar una abstracción de su implementación, permitiendo que ambas evolucionen de forma independiente**.
-*   **Prioriza la composición sobre la herencia:** En lugar de heredar de `PlataformaWeb` dentro de la clase `NotificacionMensaje`, la clase `AppNotification` *contiene* una referencia abstracta hacia cualquier `NotificationPlatform`.
+*   **Prioriza la composición sobre la herencia:** En lugar de heredar de `PlataformaWeb` dentro de la clase `NotificacionMensaje`, la clase `Notification` *contiene* una referencia abstracta hacia cualquier `Plataforma`.
 *   **Independencia de dimensiones:** Permite que crear un nuevo Tipo de Notificación no obligue a modificar el código de las plataformas, y viceversa. Las matemáticas pasan de multiplicarse ($N \times M$ subclases) a sumarse ($N + M$ clases modulares).
 *   **Dinamismo en ejecución:** Facilita cambiar el comportamiento de forma dinámica. Una notificación puede iniciar estando asociada a la plataforma `Web` y a medio camino reasignarse (mediante su método *setter*) a `MobilePlatform`.
